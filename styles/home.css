@@ -1,0 +1,30 @@
+.container__items{
+    display: flex;
+    width: 100vw;
+    padding: 1.5em;
+    align-items: center;
+    gap: 2em;
+}
+
+.home{
+    flex-flow: column;
+    margin-right: 30%;
+}
+
+.container__perfil-imagem{
+    border-radius: 100%;
+    width: 3.6em;
+    height: 3.6em;
+}
+
+.titulo__home{
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--cinza-principal);
+}
+
+.texto__home{
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    margin-top: 0.6em;
+}

@@ -1,0 +1,6 @@
+.container__data{
+    font-weight: 800;
+    color: var(--cinza-principal);
+    font-size: 16px;
+    margin-left: 1em;
+}

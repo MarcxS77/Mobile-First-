@@ -1,0 +1,15 @@
+.container__perfil{
+    background-color: var(--branco-fundo);
+}
+
+.foto__feed{
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+
+.feed{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}

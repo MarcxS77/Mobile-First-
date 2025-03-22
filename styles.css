@@ -8,11 +8,19 @@
     --branco-fundo: #ffffff;
     --cinza-principal: #464646;
     --cinza-secundario: #A3A3A3;
-    --font-principal: "Montserrat", sans-serif;
     --background: #E5E5E5;
+    --cinza-icons: #F6F6F6;
+    --laranja: #FFB050;
+    --azul: #4894FF;
+    --font-principal: "Montserrat", sans-serif;
 }
 
 body{
     font-family: var(--font-principal);
     background-color: var(--background);
+}
+
+.barra__branca{
+    background-color: var(--background);
+    height: auto;
 }

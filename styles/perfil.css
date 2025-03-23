@@ -1,7 +1,5 @@
 .feed__items {
   margin: 1.5em;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .foto__feed {
@@ -30,11 +28,11 @@
 
 .servico {
   color: var(--cinza-secundario);
+  width: 120%;
 }
 
 .icon__servico {
   margin-right: 0.5em;
-  flex-wrap: nowrap;
 }
 
 .chat__icon {
@@ -49,14 +47,16 @@
 .data__hora {
   padding: 1em;
   font-size: 12px;
+  margin-bottom: 1em;
 }
 
 .botoes {
   display: flex;
+
 }
 
 .botao {
-  padding: 1em;
+  margin: 0.5em;
   width: 10em;
   text-align: center;
 }
@@ -92,4 +92,8 @@
 .botao__local{
   color: var(--branco-fundo);
   text-decoration: none;
+}
+
+hr{
+  width: 100%;
 }

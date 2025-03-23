@@ -59,6 +59,7 @@
   margin: 0.3em;
   width: 10em;
   text-align: center;
+  display: inline-block;
 }
 
 .botao a {
